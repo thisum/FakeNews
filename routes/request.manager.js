@@ -29,9 +29,10 @@ router.post('/save', function (req, res, next) {
         newRecord.save(function (err, res) {
             if (err) {
                 console.error(err);
-                callback(constants.error.msg_save_error);
+                res.json(constants.error.msg_save_error);
             } else {
-                callback(constants.success.msg_save_success);
+                res.json(constants.success.msg_save_success);
+
             }
         });
     }
@@ -75,7 +76,7 @@ router.patch('/answer', function (req, res, next) {
         .exec(function (err, frReq) {
             if (err) {
                 console.error(err);
-                callback(-1);
+                res.json(constants.error.msg_find_failure);
             }
             else if (frReq) {
 
@@ -85,13 +86,13 @@ router.patch('/answer', function (req, res, next) {
                 frReq.save(function (err, updatedReq) {
                     if (err) {
                         console.error(err);
-                        callback(-1);
+                        res.json(constants.error.msg_find_failure);
                     }
                     else if(!updatedReq){
-                        callback(-1);
+                        res.json(constants.error.msg_find_failure);
                     }
                     else {
-                        callback("");
+                        res.json(constants.success.msg_save_success);
                     }
                 });
             }
