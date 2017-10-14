@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mydatepicker@^2.0.13",
+        "scope": null,
+        "escapedName": "mydatepicker",
+        "name": "mydatepicker",
+        "rawSpec": "^2.0.13",
+        "spec": ">=2.0.13 <3.0.0",
+        "type": "range"
+      },
+      "/Users/thisum/Documents/AppDevelopment/JS/Node/FootSense"
+    ]
+  ],
+  "_from": "mydatepicker@>=2.0.13 <3.0.0",
+  "_id": "mydatepicker@2.0.15",
+  "_inCache": true,
+  "_location": "/mydatepicker",
+  "_nodeVersion": "7.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mydatepicker-2.0.15.tgz_1496144797721_0.9690108906943351"
+  },
+  "_npmUser": {
+    "name": "kekeh",
+    "email": "kea789@outlook.com"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mydatepicker@^2.0.13",
+    "scope": null,
+    "escapedName": "mydatepicker",
+    "name": "mydatepicker",
+    "rawSpec": "^2.0.13",
+    "spec": ">=2.0.13 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mydatepicker/-/mydatepicker-2.0.15.tgz",
+  "_shasum": "d2d23e5a3c005127da18ba396fb0e44ef820a777",
+  "_shrinkwrap": null,
+  "_spec": "mydatepicker@^2.0.13",
+  "_where": "/Users/thisum/Documents/AppDevelopment/JS/Node/FootSense",
+  "author": {
+    "name": "kekeh"
+  },
+  "bugs": {
+    "url": "https://github.com/kekeh/mydatepicker/issues"
+  },
+  "dependencies": {},
+  "description": "Angular date picker",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d2d23e5a3c005127da18ba396fb0e44ef820a777",
+    "tarball": "https://registry.npmjs.org/mydatepicker/-/mydatepicker-2.0.15.tgz"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "FONT-LICENSE",
+    "package.json",
+    "README.md",
+    "dist",
+    "bundles"
+  ],
+  "homepage": "https://github.com/kekeh/mydatepicker#readme",
+  "keywords": [
+    "Angular2",
+    "Angular4",
+    "date picker"
+  ],
+  "license": "MIT",
+  "main": "bundles/mydatepicker.umd.js",
+  "maintainers": [
+    {
+      "name": "kekeh",
+      "email": "kea789@outlook.com"
+    }
+  ],
+  "module": "index.js",
+  "name": "mydatepicker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekeh/mydatepicker.git"
+  },
+  "scripts": {},
+  "typings": "index.d.ts",
+  "version": "2.0.15"
+}

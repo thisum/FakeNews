@@ -1,0 +1,25 @@
+<div class="container-fluid small-text">
+
+    <div class="row" id="result-table">
+        <div class="col-md-12" style="padding: 0px">
+            <table class="table table-bordered table-hover table-striped">
+                <thead>
+                <tr>
+                    <th class="col-md-2">Time</th>
+                    <th class="col-md-7">Content</th>
+                    <th class="col-md-3">Decision</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr style="cursor: pointer" *ngFor="let record of requestRecords">
+                    <td class="col-md-2">{{record.recordTime}}</td>
+                    <td class="col-md-7">{{record.content}}</td>
+                    <td class="col-md-3"><button (click)="onSubmitAns(1)">Correct</button><button (click)="onSubmitAns(0)">False</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <button (click)="onSearch()">Search</button>
+    </div>
+
+</div>
